@@ -2,7 +2,7 @@
 // console.log(1 pet_preferito);
 // in questo caso var 1 pet_preferito = 'gatto' non va bene, la console reinderizza come Uncaught error in quanto stiamo utilizzando un number (1)
 
-// alert('Usa il pop up per dare dei messaggi');
+alert('Usa il pop up per dare dei messaggi');
 
 
 var pet = 'gatto';
@@ -14,7 +14,7 @@ console.log(petPreferito);
 var PetPreferito = 'coniglio';
 console.log(PetPreferito);
 
-// window.alert('Sto studiando JS');
+window.alert('Sto studiando JS');
 
 
 var $pet = 'giraffa';
@@ -37,7 +37,7 @@ document.getElementById("animali").style.color = "blue";
 var firstNumber = Number(prompt("Inserisci il tuo primo numero"))
 var secondNumber = Number(prompt("Inserisci il tuo secondo numero"))
 document.getElementById("numeri").innerHTML = firstNumber + secondNumber
-document.write(firstNumber + secondNumber);
+// document.write(firstNumber + secondNumber);
 
 var button = document.getElementById('button');
 var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'rebeccapurple', 'violet'];
