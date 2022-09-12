@@ -36,4 +36,5 @@ document.getElementById("animali").style.color = "blue";
 
 var firstNumber = Number(prompt("Inserisci il tuo primo numero"))
 var secondNumber = Number(prompt("Inserisci il tuo secondo numero"))
+document.getElementById("numeri").innerHTML = firstNumber + secondNumber
 document.write(firstNumber + secondNumber);
