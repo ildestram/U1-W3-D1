@@ -21,8 +21,8 @@ var $pet = 'giraffa';
 console.log($pet);
 var _pet = 'leone';
 console.log(_pet);
-var _pet2 = 'pantera';
-document.write(_pet2);
+// var _pet2 = 'pantera';
+// document.write(_pet2);
 
 // alert('Vado a definire altri elementi');
 
@@ -38,3 +38,11 @@ var firstNumber = Number(prompt("Inserisci il tuo primo numero"))
 var secondNumber = Number(prompt("Inserisci il tuo secondo numero"))
 document.getElementById("numeri").innerHTML = firstNumber + secondNumber
 document.write(firstNumber + secondNumber);
+
+var button = document.getElementById('button');
+var colors = ['red', 'orange', 'yellow', 'green', 'blue', 'rebeccapurple', 'violet'];
+function change() {
+    document.body.style.background = colors[Math.floor(7*Math.random())];
+}
+button.addEventListener('click', change);
+
